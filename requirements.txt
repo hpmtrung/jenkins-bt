@@ -1,0 +1,17 @@
+certifi==2024.12.14
+charset-normalizer==3.4.1
+click==8.1.8
+colorama==0.4.6
+idna==3.10
+markdown-it-py==3.0.0
+mdurl==0.1.2
+multi-key-dict==2.0.3
+pbr==6.1.0
+pygments==2.18.0
+python-jenkins==1.8.2
+PyYAML==6.0.2
+requests==2.32.3
+rich==13.9.4
+six==1.17.0
+typing-extensions==4.12.2
+urllib3==2.2.3
