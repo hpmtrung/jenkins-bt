@@ -4,16 +4,12 @@
 
 A CLI application makes it easier to work with Jenkins. The program supports build using alias and multiple build for dependencies.
 
----
-
 ## Features
 
 - Easy-to-use CLI interface
 - Support YAML configuration file
 - Build using alias
 - Multiple build for dependencies
-
----
 
 ## Installation
 
@@ -50,8 +46,6 @@ $ pip install -r requirements.txt
 ```bash
 $ python main.py --help
 ```
-
----
 
 ## Usage
 
@@ -102,10 +96,10 @@ dependencies:
   - dev-meta: dev-api-client
 ```
 
-### Troubleshooting
+## Troubleshooting
 
 For troubleshooting, view log files that are located in the directory `$HOME/jenkins-bt-logs`.
 
-### Limitations
+## Limitations
 
 The program doesn't support Jenkins SSH authentication
