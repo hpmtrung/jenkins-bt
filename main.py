@@ -294,7 +294,7 @@ def main(config_file: str, start_point: str, exclude_aliases: set[str], ignore_f
 
     config = read_conf_file(config_file)
 
-    if config.aliases and start_point in config.aliases:
+    if config.aliases and start_point not in config.aliases:
         print('Missing alias for the start point')
         exit(0)
 
